@@ -1,0 +1,25 @@
+{
+    "name": "jethromay/chuck-norris-jokes",
+    "description": "Create random Chuck Norris jokes",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jethro May",
+            "email": "hello@jethromay.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "JethroMay\\ChuckNorrisJokes\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "JethroMay\\ChuckNorrisJokes\\Tests\\": "tests"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    }
+}
