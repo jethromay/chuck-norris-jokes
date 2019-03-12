@@ -8,7 +8,10 @@
             "email": "hello@jethromay.com"
         }
     ],
-    "require": {},
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "ext-json": "*"
+    },
     "autoload": {
         "psr-4": {
             "JethroMay\\ChuckNorrisJokes\\": "src/"
