@@ -8,12 +8,11 @@ class ChuckNorrisServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-
     }
 
     public function register()
     {
-        $this->app->bind('chuck-norris', function() {
+        $this->app->bind('chuck-norris', function () {
             return new JokeFactory();
         });
     }
