@@ -1,6 +1,6 @@
 <?php
 
-namespace JethroMay\ChuckNorrisJokes;
+namespace JethroMay\ChuckNorrisJokes\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
