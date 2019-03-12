@@ -4,7 +4,7 @@ namespace JethroMay\ChuckNorrisJokes;
 
 use Illuminate\Support\ServiceProvider;
 
-class ChuckNorrisServiceProvider extends ServiceProvider
+class ChuckNorrisJokesServiceProvider extends ServiceProvider
 {
     public function boot()
     {
@@ -13,7 +13,7 @@ class ChuckNorrisServiceProvider extends ServiceProvider
 
     public function register()
     {
-        $this->app->bind('chuck-norris', function() {
+        $this->app->bind('chuck-norris', function () {
             return new JokeFactory();
         });
     }
